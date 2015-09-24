@@ -21,7 +21,8 @@
   },
   "scripts": {
     "dev": "WEBPACK_ENV=dev ./node_modules/.bin/webpack --watch --inline",
-    "build": "WEBPACK_ENV=build ./node_modules/.bin/webpack"
+    "build": "WEBPACK_ENV=build ./node_modules/.bin/webpack",
+    "test": "WEBPACK_ENV=test ./node_modules/.bin/webpack --options ./webpack.test.config.js"
   },
   "devDependencies": {
     "babel-core": "5.8.24",
@@ -31,6 +32,12 @@
     "eslint-loader": "1.0.0",
     "eslint-plugin-react": "3.4.1",
     "jsx-loader": "0.13.2",
+    "karma": "^0.13.10",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-sourcemap-loader": "^0.3.5",
+    "karma-webpack": "^1.7.0",
+    "phantomjs": "^1.9.18",
     "react": "0.13.3",
     "webpack": "1.12.2",
     "webpack-dev-server": "1.11.0"
