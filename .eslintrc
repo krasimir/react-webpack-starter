@@ -16,7 +16,11 @@
     "escape": false,
     "navigator": false,
     "unescape": false,
-    "window": false
+    "window": false,
+    "describe": true,
+    "before": true,
+    "it": true,
+    "expect": true
   },
 
   "parser": "babel-eslint",
