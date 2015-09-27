@@ -20,7 +20,8 @@
     "describe": true,
     "before": true,
     "it": true,
-    "expect": true
+    "expect": true,
+    "sinon": true
   },
 
   "parser": "babel-eslint",
