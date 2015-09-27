@@ -10,7 +10,7 @@ The aim of this repository is to provide a template for developing [React](https
 * Build with [webpack](https://webpack.github.io/)
 * Test with [Mocha](http://mochajs.org/), [Chai](http://chaijs.com/) and [Sinon](http://sinonjs.org/)
 * Use [Karma](http://karma-runner.github.io/) to run the tests
-* In development mode runs a local web server (with [webpack-dev-server](http://webpack.github.io/docs/webpack-dev-server.html))
+* Developer locally with [webpack-dev-server](http://webpack.github.io/docs/webpack-dev-server.html)
 
 ## Usage
 
@@ -19,4 +19,5 @@ The aim of this repository is to provide a template for developing [React](https
 * Run `npm run build` to build the project
 * Run `npm run dev` to build the project, start watching files and run the local server
 * Run `npm test` to run the tests once
+* Run `npm test:ci` to watch the `src` directory for changes and run the tests
 
