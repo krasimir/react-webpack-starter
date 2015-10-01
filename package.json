@@ -1,6 +1,6 @@
 {
   "name": "react-webpack-starter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "React webpack starter template",
   "main": "lib/index.js",
   "dependencies": {},
@@ -34,7 +34,6 @@
     "eslint": "1.4.3",
     "eslint-loader": "1.0.0",
     "eslint-plugin-react": "3.4.1",
-    "jsx-loader": "0.13.2",
     "karma": "0.13.10",
     "karma-chai": "0.1.0",
     "karma-chai-plugins": "0.6.0",

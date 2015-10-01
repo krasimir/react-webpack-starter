@@ -28,11 +28,6 @@ var config = {
     loaders: [
       {
         test: /(\.jsx|\.js)$/,
-        loader: 'jsx',
-        exclude: /node_modules/
-      },
-      {
-        test: /(\.jsx|\.js)$/,
         loader: 'babel',
         exclude: /(node_modules|bower_components)/
       },
