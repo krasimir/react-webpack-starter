@@ -21,3 +21,6 @@ The aim of this repository is to provide a template for developing [React](https
 * Run `npm test` to run the tests once
 * Run `npm test:ci` to watch the `src` directory for changes and run the tests
 
+## MISC
+
+* [A modern React starter pack based on webpack](http://krasimirtsonev.com/blog/article/a-modern-react-starter-pack-based-on-webpack)
