@@ -19,7 +19,7 @@ The aim of this repository is to provide a template for developing [React](https
 * Run `npm run build` to build the project
 * Run `npm run dev` to build the project, start watching files and run the local server
 * Run `npm test` to run the tests once
-* Run `npm test:ci` to watch the `src` directory for changes and run the tests
+* Run `npm run test:ci` to watch the `src` directory for changes and run the tests
 
 ## MISC
 
