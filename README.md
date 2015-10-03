@@ -10,7 +10,7 @@ The aim of this repository is to provide a template for developing [React](https
 * Build with [webpack](https://webpack.github.io/)
 * Test with [Mocha](http://mochajs.org/), [Chai](http://chaijs.com/) and [Sinon](http://sinonjs.org/)
 * Use [Karma](http://karma-runner.github.io/) to run the tests
-* Developer locally with [webpack-dev-server](http://webpack.github.io/docs/webpack-dev-server.html)
+* Develop locally with [webpack-dev-server](http://webpack.github.io/docs/webpack-dev-server.html)
 
 ## Usage
 
