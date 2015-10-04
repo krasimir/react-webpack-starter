@@ -2,6 +2,7 @@ var webpack = require('webpack');
 var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 var env = process.env.WEBPACK_ENV;
 var WebpackDevServer = require('webpack-dev-server');
+var path = require('path');
 
 var appName = 'app';
 var host = '0.0.0.0';
@@ -37,6 +38,10 @@ var config = {
         exclude: /node_modules/
       }
     ]
+  },
+  resolve: {
+    root: path.resolve('./src'),
+    extensions: ['', '.js', '.jsx']
   },
   plugins: plugins
 };

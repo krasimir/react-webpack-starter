@@ -1,5 +1,5 @@
 import React from 'react';
-import Component from './Component.jsx';
+import Component from './Component';
 
 window.onload = () => {
   React.render(
