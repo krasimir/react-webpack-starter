@@ -1,6 +1,6 @@
 {
   "name": "react-webpack-starter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React webpack starter template",
   "main": "lib/index.js",
   "dependencies": {},
@@ -46,7 +46,7 @@
     "karma-sinon-chai": "1.1.0",
     "karma-sourcemap-loader": "0.3.5",
     "karma-webpack": "1.7.0",
-    "react": "0.13.3",
+    "react": "0.14.0",
     "watch": "0.16.0",
     "webpack": "1.12.2",
     "webpack-dev-server": "1.11.0"
