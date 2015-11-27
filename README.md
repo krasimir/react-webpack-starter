@@ -15,6 +15,7 @@ The aim of this repository is to provide a template for developing [React](https
 ## Usage
 
 * Download the files and place them in your project directory
+  * Mac or Linux: `git archive --remote=https://github.com/krasimir/react-webpack-starter.git master | tar -x -C ./`
 * Run `npm i` to install the dependencies
 * Run `npm run build` to build the project
 * Run `npm run dev` to build the project, start watching files and run the local server
