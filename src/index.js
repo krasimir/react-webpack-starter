@@ -1,8 +1,9 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import Component from './Component';
 
 window.onload = () => {
-  React.render(
+  ReactDOM.render(
     <Component />,
     document.querySelector('#container')
   );

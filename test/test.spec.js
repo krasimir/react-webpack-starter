@@ -1,7 +1,6 @@
 import Component from '../src/Component.jsx';
-import React from 'react/addons';
-
-const TestUtils = React.addons.TestUtils;
+import TestUtils from 'react-addons-test-utils';
+import React from 'react';
 
 var component;
 var spy = sinon.spy();
