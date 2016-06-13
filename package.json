@@ -20,8 +20,8 @@
     "url": "git@github.com:krasimir/react-webpack-starter.git"
   },
   "scripts": {
-    "dev": "WEBPACK_ENV=dev ./node_modules/.bin/webpack --watch --inline",
-    "build": "WEBPACK_ENV=build ./node_modules/.bin/webpack",
+    "dev": "./node_modules/.bin/webpack --watch --inline",
+    "build": "./node_modules/.bin/webpack --config=webpack.build.config.js",
     "test": "karma start",
     "test:ci": "watch 'npm run test' src/"
   },

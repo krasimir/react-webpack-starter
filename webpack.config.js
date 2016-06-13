@@ -1,6 +1,6 @@
 var webpack = require('webpack');
 var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
-var env = process.env.WEBPACK_ENV;
+var env = process.env.WEBPACK_ENV || 'dev';
 var WebpackDevServer = require('webpack-dev-server');
 var path = require('path');
 
