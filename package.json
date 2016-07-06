@@ -51,9 +51,9 @@
     "karma-webpack": "1.7.0",
     "mocha": "^2.3.4",
     "phantomjs": "^1.9.19",
-    "react": "0.14.7",
-    "react-addons-test-utils": "0.14.7",
-    "react-dom": "0.14.7",
+    "react": "15.2.0",
+    "react-addons-test-utils": "15.2.0",
+    "react-dom": "15.2.0",
     "watch": "0.16.0",
     "webpack": "1.12.2",
     "webpack-dev-server": "1.11.0"
