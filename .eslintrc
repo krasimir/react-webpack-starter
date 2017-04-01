@@ -179,7 +179,7 @@
     "react/react-in-jsx-scope": 2,
     "react/self-closing-comp": 2,
     "react/sort-comp": 0,
-    "react/wrap-multilines": 2,
+    "react/jsx-wrap-multilines": 2,
     "semi": [2, "always"],
     "semi-spacing": 0,
     "sort-vars": 0,
